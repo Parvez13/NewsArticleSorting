@@ -1,0 +1,1113 @@
+2022-11-28 08:30:46 Get the Tensorflow GPU
+2022-11-28 08:30:46 Load saved "CNN" model
+2022-11-28 08:30:47 Open 'tokenizer' as json to our raw data
+2022-11-28 08:30:47 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-28 08:30:47 [33mPress CTRL+C to quit[0m
+2022-11-28 08:30:47  * Restarting with stat
+2022-11-28 08:30:54 Get the Tensorflow GPU
+2022-11-28 08:30:54 Load saved "CNN" model
+2022-11-28 08:30:55 Open 'tokenizer' as json to our raw data
+2022-11-28 08:30:55  * Debugger is active!
+2022-11-28 08:30:55  * Debugger PIN: 172-376-520
+2022-11-28 08:30:58 127.0.0.1 - - [28/Nov/2022 08:30:58] "GET / HTTP/1.1" 200 -
+2022-11-28 08:30:58 127.0.0.1 - - [28/Nov/2022 08:30:58] "GET / HTTP/1.1" 200 -
+2022-11-28 08:30:58 127.0.0.1 - - [28/Nov/2022 08:30:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 08:30:58 127.0.0.1 - - [28/Nov/2022 08:30:58] "[36mGET /static/ineuron_logo.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 08:30:59 127.0.0.1 - - [28/Nov/2022 08:30:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 08:30:59 127.0.0.1 - - [28/Nov/2022 08:30:59] "[36mGET /static/ineuron_logo.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 08:30:59 127.0.0.1 - - [28/Nov/2022 08:30:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-28 08:31:26 Get the user input
+2022-11-28 08:31:26 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 08:31:26 Tokenize the words from the data which is preprocessed.
+2022-11-28 08:31:26 Padding to the tokens
+2022-11-28 08:31:26 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 08:31:27 Get the predictions
+2022-11-28 08:31:27 Our model predicted this news as Entertainment.
+2022-11-28 08:31:27 127.0.0.1 - - [28/Nov/2022 08:31:27] "POST /predict HTTP/1.1" 200 -
+2022-11-28 08:31:27 127.0.0.1 - - [28/Nov/2022 08:31:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 08:31:27 127.0.0.1 - - [28/Nov/2022 08:31:27] "[36mGET /static/ineuron_logo.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 08:32:21 Get the user input
+2022-11-28 08:32:21 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 08:32:21 Tokenize the words from the data which is preprocessed.
+2022-11-28 08:32:21 Padding to the tokens
+2022-11-28 08:32:21 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 08:32:21 Get the predictions
+2022-11-28 08:32:21 Our model predicted this news as Business
+2022-11-28 08:32:21 127.0.0.1 - - [28/Nov/2022 08:32:21] "POST /predict HTTP/1.1" 200 -
+2022-11-28 08:32:21 127.0.0.1 - - [28/Nov/2022 08:32:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 08:32:21 127.0.0.1 - - [28/Nov/2022 08:32:21] "[36mGET /static/ineuron_logo.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 08:40:26 Get the Tensorflow GPU
+2022-11-28 08:40:26 Load saved "CNN" model
+2022-11-28 08:40:26 Open 'tokenizer' as json to our raw data
+2022-11-28 08:40:26 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-28 08:40:26 [33mPress CTRL+C to quit[0m
+2022-11-28 08:40:26  * Restarting with stat
+2022-11-28 08:40:34 Get the Tensorflow GPU
+2022-11-28 08:40:34 Load saved "CNN" model
+2022-11-28 08:40:34 Open 'tokenizer' as json to our raw data
+2022-11-28 08:40:35  * Debugger is active!
+2022-11-28 08:40:35  * Debugger PIN: 172-376-520
+2022-11-28 08:40:35 127.0.0.1 - - [28/Nov/2022 08:40:35] "GET / HTTP/1.1" 200 -
+2022-11-28 08:40:35 127.0.0.1 - - [28/Nov/2022 08:40:35] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 08:40:35 127.0.0.1 - - [28/Nov/2022 08:40:35] "GET /static/ineuron_logo.jpeg HTTP/1.1" 200 -
+2022-11-28 08:41:12 127.0.0.1 - - [28/Nov/2022 08:41:12] "GET / HTTP/1.1" 200 -
+2022-11-28 08:41:12 127.0.0.1 - - [28/Nov/2022 08:41:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 08:41:12 127.0.0.1 - - [28/Nov/2022 08:41:12] "GET /static/ineuron.jpeg HTTP/1.1" 200 -
+2022-11-28 08:42:51 Get the user input
+2022-11-28 08:42:51 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 08:42:51 Tokenize the words from the data which is preprocessed.
+2022-11-28 08:42:51 Padding to the tokens
+2022-11-28 08:42:51 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 08:42:51 Get the predictions
+2022-11-28 08:42:51 Our model predicted this news as Business
+2022-11-28 08:42:51 127.0.0.1 - - [28/Nov/2022 08:42:51] "POST /predict HTTP/1.1" 200 -
+2022-11-28 08:42:51 127.0.0.1 - - [28/Nov/2022 08:42:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 08:42:51 127.0.0.1 - - [28/Nov/2022 08:42:51] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 08:45:19 Get the user input
+2022-11-28 08:45:19 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 08:45:19 Tokenize the words from the data which is preprocessed.
+2022-11-28 08:45:19 Padding to the tokens
+2022-11-28 08:45:19 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 08:45:19 Get the predictions
+2022-11-28 08:45:19 Our model predicted this news as Business
+2022-11-28 08:45:19 127.0.0.1 - - [28/Nov/2022 08:45:19] "POST /predict HTTP/1.1" 200 -
+2022-11-28 08:45:20 127.0.0.1 - - [28/Nov/2022 08:45:20] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 08:45:20 127.0.0.1 - - [28/Nov/2022 08:45:20] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 08:46:04 Get the user input
+2022-11-28 08:46:04 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 08:46:04 Tokenize the words from the data which is preprocessed.
+2022-11-28 08:46:04 Padding to the tokens
+2022-11-28 08:46:04 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 08:46:05 Get the predictions
+2022-11-28 08:46:05 Our model predicted this news as Business
+2022-11-28 08:46:05 127.0.0.1 - - [28/Nov/2022 08:46:05] "POST /predict HTTP/1.1" 200 -
+2022-11-28 08:46:05 127.0.0.1 - - [28/Nov/2022 08:46:05] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 08:46:05 127.0.0.1 - - [28/Nov/2022 08:46:05] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 08:47:24 Get the user input
+2022-11-28 08:47:24 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 08:47:24 Tokenize the words from the data which is preprocessed.
+2022-11-28 08:47:24 Padding to the tokens
+2022-11-28 08:47:24 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 08:47:24 Get the predictions
+2022-11-28 08:47:24 Our model predicted this news as Business
+2022-11-28 08:47:24 127.0.0.1 - - [28/Nov/2022 08:47:24] "POST /predict HTTP/1.1" 200 -
+2022-11-28 08:47:24 127.0.0.1 - - [28/Nov/2022 08:47:24] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 08:47:24 127.0.0.1 - - [28/Nov/2022 08:47:24] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 08:54:18 Get the user input
+2022-11-28 08:54:18 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 08:54:18 Tokenize the words from the data which is preprocessed.
+2022-11-28 08:54:18 Padding to the tokens
+2022-11-28 08:54:18 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 08:54:18 Get the predictions
+2022-11-28 08:54:18 Our model predicted this news as Business
+2022-11-28 08:54:18 127.0.0.1 - - [28/Nov/2022 08:54:18] "POST /predict HTTP/1.1" 200 -
+2022-11-28 08:54:18 127.0.0.1 - - [28/Nov/2022 08:54:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 08:54:18 127.0.0.1 - - [28/Nov/2022 08:54:18] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 08:54:50 Get the user input
+2022-11-28 08:54:50 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 08:54:50 Tokenize the words from the data which is preprocessed.
+2022-11-28 08:54:50 Padding to the tokens
+2022-11-28 08:54:50 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 08:54:50 Get the predictions
+2022-11-28 08:54:50 Our model predicted this news as Business
+2022-11-28 08:54:50 127.0.0.1 - - [28/Nov/2022 08:54:50] "POST /predict HTTP/1.1" 200 -
+2022-11-28 08:54:51 127.0.0.1 - - [28/Nov/2022 08:54:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 08:54:51 127.0.0.1 - - [28/Nov/2022 08:54:51] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:04:05 Get the user input
+2022-11-28 09:04:05 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:04:05 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:04:05 Padding to the tokens
+2022-11-28 09:04:05 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:04:05 Get the predictions
+2022-11-28 09:04:05 Our model predicted this news as Business
+2022-11-28 09:04:05 127.0.0.1 - - [28/Nov/2022 09:04:05] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:04:05 127.0.0.1 - - [28/Nov/2022 09:04:05] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:04:05 127.0.0.1 - - [28/Nov/2022 09:04:05] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:04:33 Get the user input
+2022-11-28 09:04:33 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:04:33 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:04:33 Padding to the tokens
+2022-11-28 09:04:33 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:04:33 Get the predictions
+2022-11-28 09:04:33 Our model predicted this news as Business
+2022-11-28 09:04:33 127.0.0.1 - - [28/Nov/2022 09:04:33] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:04:33 127.0.0.1 - - [28/Nov/2022 09:04:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:04:33 127.0.0.1 - - [28/Nov/2022 09:04:33] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:04:45 Get the user input
+2022-11-28 09:04:45 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:04:45 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:04:45 Padding to the tokens
+2022-11-28 09:04:45 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:04:46 Get the predictions
+2022-11-28 09:04:46 Our model predicted this news as Business
+2022-11-28 09:04:46 127.0.0.1 - - [28/Nov/2022 09:04:46] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:04:46 127.0.0.1 - - [28/Nov/2022 09:04:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:04:46 127.0.0.1 - - [28/Nov/2022 09:04:46] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:06:41 Get the user input
+2022-11-28 09:06:41 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:06:41 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:06:41 Padding to the tokens
+2022-11-28 09:06:41 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:06:41 Get the predictions
+2022-11-28 09:06:41 Our model predicted this news as Business
+2022-11-28 09:06:41 127.0.0.1 - - [28/Nov/2022 09:06:41] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:06:41 127.0.0.1 - - [28/Nov/2022 09:06:41] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:06:41 127.0.0.1 - - [28/Nov/2022 09:06:41] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:07:21 Get the user input
+2022-11-28 09:07:21 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:07:21 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:07:21 Padding to the tokens
+2022-11-28 09:07:21 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:07:21 Get the predictions
+2022-11-28 09:07:21 Our model predicted this news as Business
+2022-11-28 09:07:21 127.0.0.1 - - [28/Nov/2022 09:07:21] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:07:21 127.0.0.1 - - [28/Nov/2022 09:07:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:07:21 127.0.0.1 - - [28/Nov/2022 09:07:21] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:08:14 Get the user input
+2022-11-28 09:08:14 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:08:14 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:08:14 Padding to the tokens
+2022-11-28 09:08:14 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:08:14 Get the predictions
+2022-11-28 09:08:14 Our model predicted this news as Business
+2022-11-28 09:08:14 127.0.0.1 - - [28/Nov/2022 09:08:14] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:08:14 127.0.0.1 - - [28/Nov/2022 09:08:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:08:14 127.0.0.1 - - [28/Nov/2022 09:08:14] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:08:31 Get the user input
+2022-11-28 09:08:31 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:08:31 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:08:31 Padding to the tokens
+2022-11-28 09:08:31 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:08:31 Get the predictions
+2022-11-28 09:08:31 Our model predicted this news as Business
+2022-11-28 09:08:31 127.0.0.1 - - [28/Nov/2022 09:08:31] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:08:32 127.0.0.1 - - [28/Nov/2022 09:08:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:08:32 127.0.0.1 - - [28/Nov/2022 09:08:32] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:09:09 Get the user input
+2022-11-28 09:09:09 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:09:09 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:09:09 Padding to the tokens
+2022-11-28 09:09:09 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:09:09 Get the predictions
+2022-11-28 09:09:09 Our model predicted this news as Entertainment.
+2022-11-28 09:09:09 127.0.0.1 - - [28/Nov/2022 09:09:09] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:09:09 127.0.0.1 - - [28/Nov/2022 09:09:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:09:09 127.0.0.1 - - [28/Nov/2022 09:09:09] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:09:40 Get the user input
+2022-11-28 09:09:40 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:09:40 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:09:40 Padding to the tokens
+2022-11-28 09:09:40 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:09:40 Get the predictions
+2022-11-28 09:09:40 Our model predicted this news as Entertainment.
+2022-11-28 09:09:40 127.0.0.1 - - [28/Nov/2022 09:09:40] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:09:40 127.0.0.1 - - [28/Nov/2022 09:09:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:09:40 127.0.0.1 - - [28/Nov/2022 09:09:40] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:10:15 Get the user input
+2022-11-28 09:10:15 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:10:15 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:10:15 Padding to the tokens
+2022-11-28 09:10:15 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:10:16 Get the predictions
+2022-11-28 09:10:16 Our model predicted this news as Entertainment.
+2022-11-28 09:10:16 127.0.0.1 - - [28/Nov/2022 09:10:16] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:10:16 127.0.0.1 - - [28/Nov/2022 09:10:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:10:16 127.0.0.1 - - [28/Nov/2022 09:10:16] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:10:20 Get the user input
+2022-11-28 09:10:20 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:10:20 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:10:20 Padding to the tokens
+2022-11-28 09:10:20 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:10:20 Get the predictions
+2022-11-28 09:10:20 Our model predicted this news as Entertainment.
+2022-11-28 09:10:20 127.0.0.1 - - [28/Nov/2022 09:10:20] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:10:20 127.0.0.1 - - [28/Nov/2022 09:10:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:10:20 127.0.0.1 - - [28/Nov/2022 09:10:20] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:11:09 Get the user input
+2022-11-28 09:11:09 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:11:09 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:11:09 Padding to the tokens
+2022-11-28 09:11:09 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:11:09 Get the predictions
+2022-11-28 09:11:09 Our model predicted this news as Sports.
+2022-11-28 09:11:09 127.0.0.1 - - [28/Nov/2022 09:11:09] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:11:09 127.0.0.1 - - [28/Nov/2022 09:11:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:11:09 127.0.0.1 - - [28/Nov/2022 09:11:09] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:11:53 Get the user input
+2022-11-28 09:11:53 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:11:53 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:11:53 Padding to the tokens
+2022-11-28 09:11:53 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:11:53 Get the predictions
+2022-11-28 09:11:53 Our model predicted this news as Entertainment.
+2022-11-28 09:11:53 127.0.0.1 - - [28/Nov/2022 09:11:53] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:11:53 127.0.0.1 - - [28/Nov/2022 09:11:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:11:53 127.0.0.1 - - [28/Nov/2022 09:11:53] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:12:08 Get the user input
+2022-11-28 09:12:08 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:12:08 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:12:08 Padding to the tokens
+2022-11-28 09:12:08 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:12:09 Get the predictions
+2022-11-28 09:12:09 Our model predicted this news as Entertainment.
+2022-11-28 09:12:09 127.0.0.1 - - [28/Nov/2022 09:12:09] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:12:09 127.0.0.1 - - [28/Nov/2022 09:12:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:12:09 127.0.0.1 - - [28/Nov/2022 09:12:09] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:13:06 Get the user input
+2022-11-28 09:13:06 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:13:06 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:13:06 Padding to the tokens
+2022-11-28 09:13:06 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:13:07 Get the predictions
+2022-11-28 09:13:07 Our model predicted this news as Entertainment.
+2022-11-28 09:13:07 127.0.0.1 - - [28/Nov/2022 09:13:07] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:13:07 127.0.0.1 - - [28/Nov/2022 09:13:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:13:07 127.0.0.1 - - [28/Nov/2022 09:13:07] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:13:45 Get the user input
+2022-11-28 09:13:45 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:13:45 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:13:45 Padding to the tokens
+2022-11-28 09:13:45 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:13:45 Get the predictions
+2022-11-28 09:13:45 Our model predicted this news as Entertainment.
+2022-11-28 09:13:45 127.0.0.1 - - [28/Nov/2022 09:13:45] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:13:45 127.0.0.1 - - [28/Nov/2022 09:13:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:13:45 127.0.0.1 - - [28/Nov/2022 09:13:45] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:14:08 Get the user input
+2022-11-28 09:14:08 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:14:08 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:14:08 Padding to the tokens
+2022-11-28 09:14:08 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:14:08 Get the predictions
+2022-11-28 09:14:08 Our model predicted this news as Entertainment.
+2022-11-28 09:14:08 127.0.0.1 - - [28/Nov/2022 09:14:08] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:14:08 127.0.0.1 - - [28/Nov/2022 09:14:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:14:08 127.0.0.1 - - [28/Nov/2022 09:14:08] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:14:27 Get the user input
+2022-11-28 09:14:27 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:14:27 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:14:27 Padding to the tokens
+2022-11-28 09:14:27 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:14:27 Get the predictions
+2022-11-28 09:14:27 Our model predicted this news as Entertainment.
+2022-11-28 09:14:27 127.0.0.1 - - [28/Nov/2022 09:14:27] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:14:27 127.0.0.1 - - [28/Nov/2022 09:14:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:14:27 127.0.0.1 - - [28/Nov/2022 09:14:27] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:16:27 Get the user input
+2022-11-28 09:16:27 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:16:27 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:16:27 Padding to the tokens
+2022-11-28 09:16:27 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:16:27 Get the predictions
+2022-11-28 09:16:27 Our model predicted this news as Entertainment.
+2022-11-28 09:16:27 127.0.0.1 - - [28/Nov/2022 09:16:27] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:16:27 127.0.0.1 - - [28/Nov/2022 09:16:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:16:27 127.0.0.1 - - [28/Nov/2022 09:16:27] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:16:56 Get the user input
+2022-11-28 09:16:56 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:16:56 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:16:56 Padding to the tokens
+2022-11-28 09:16:56 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:16:56 Get the predictions
+2022-11-28 09:16:56 Our model predicted this news as Entertainment.
+2022-11-28 09:16:56 127.0.0.1 - - [28/Nov/2022 09:16:56] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:16:56 127.0.0.1 - - [28/Nov/2022 09:16:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:16:56 127.0.0.1 - - [28/Nov/2022 09:16:56] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:17:19 Get the user input
+2022-11-28 09:17:19 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:17:19 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:17:19 Padding to the tokens
+2022-11-28 09:17:19 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:17:19 Get the predictions
+2022-11-28 09:17:19 Our model predicted this news as Entertainment.
+2022-11-28 09:17:19 127.0.0.1 - - [28/Nov/2022 09:17:19] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:17:19 127.0.0.1 - - [28/Nov/2022 09:17:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:17:19 127.0.0.1 - - [28/Nov/2022 09:17:19] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:17:39 Get the user input
+2022-11-28 09:17:39 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:17:39 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:17:39 Padding to the tokens
+2022-11-28 09:17:39 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:17:39 Get the predictions
+2022-11-28 09:17:39 Our model predicted this news as Entertainment.
+2022-11-28 09:17:39 127.0.0.1 - - [28/Nov/2022 09:17:39] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:17:39 127.0.0.1 - - [28/Nov/2022 09:17:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:17:39 127.0.0.1 - - [28/Nov/2022 09:17:39] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:17:56 Get the user input
+2022-11-28 09:17:56 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:17:56 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:17:56 Padding to the tokens
+2022-11-28 09:17:56 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:17:56 Get the predictions
+2022-11-28 09:17:56 Our model predicted this news as Entertainment.
+2022-11-28 09:17:56 127.0.0.1 - - [28/Nov/2022 09:17:56] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:17:56 127.0.0.1 - - [28/Nov/2022 09:17:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:17:56 127.0.0.1 - - [28/Nov/2022 09:17:56] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:17:58 Get the user input
+2022-11-28 09:17:58 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:17:58 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:17:58 Padding to the tokens
+2022-11-28 09:17:58 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:17:58 Get the predictions
+2022-11-28 09:17:58 Our model predicted this news as Entertainment.
+2022-11-28 09:17:58 127.0.0.1 - - [28/Nov/2022 09:17:58] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:17:58 127.0.0.1 - - [28/Nov/2022 09:17:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:17:58 127.0.0.1 - - [28/Nov/2022 09:17:58] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:18:31 Get the user input
+2022-11-28 09:18:31 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:18:31 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:18:31 Padding to the tokens
+2022-11-28 09:18:31 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:18:31 Get the predictions
+2022-11-28 09:18:31 Our model predicted this news as Sports.
+2022-11-28 09:18:31 127.0.0.1 - - [28/Nov/2022 09:18:31] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:18:31 127.0.0.1 - - [28/Nov/2022 09:18:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:18:31 127.0.0.1 - - [28/Nov/2022 09:18:31] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:19:13 Get the user input
+2022-11-28 09:19:13 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:19:13 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:19:13 Padding to the tokens
+2022-11-28 09:19:13 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:19:13 Get the predictions
+2022-11-28 09:19:13 Our model predicted this news as Technology.
+2022-11-28 09:19:13 127.0.0.1 - - [28/Nov/2022 09:19:13] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:19:13 127.0.0.1 - - [28/Nov/2022 09:19:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:19:13 127.0.0.1 - - [28/Nov/2022 09:19:13] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:19:36 Get the user input
+2022-11-28 09:19:36 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:19:36 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:19:36 Padding to the tokens
+2022-11-28 09:19:36 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:19:37 Get the predictions
+2022-11-28 09:19:37 Our model predicted this news as Business
+2022-11-28 09:19:37 127.0.0.1 - - [28/Nov/2022 09:19:37] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:19:37 127.0.0.1 - - [28/Nov/2022 09:19:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:19:37 127.0.0.1 - - [28/Nov/2022 09:19:37] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:19:51 Get the user input
+2022-11-28 09:19:51 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:19:51 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:19:51 Padding to the tokens
+2022-11-28 09:19:51 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:19:51 Get the predictions
+2022-11-28 09:19:51 Our model predicted this news as Entertainment.
+2022-11-28 09:19:51 127.0.0.1 - - [28/Nov/2022 09:19:51] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:19:51 127.0.0.1 - - [28/Nov/2022 09:19:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:19:51 127.0.0.1 - - [28/Nov/2022 09:19:51] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:20:35 Get the user input
+2022-11-28 09:20:35 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:20:35 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:20:35 Padding to the tokens
+2022-11-28 09:20:35 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:20:35 Get the predictions
+2022-11-28 09:20:35 Our model predicted this news as Entertainment.
+2022-11-28 09:20:35 127.0.0.1 - - [28/Nov/2022 09:20:35] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:20:35 127.0.0.1 - - [28/Nov/2022 09:20:35] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:20:35 127.0.0.1 - - [28/Nov/2022 09:20:35] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:22:06 Get the user input
+2022-11-28 09:22:06 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:22:06 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:22:06 Padding to the tokens
+2022-11-28 09:22:06 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:22:06 Get the predictions
+2022-11-28 09:22:06 Our model predicted this news as Sports.
+2022-11-28 09:22:06 127.0.0.1 - - [28/Nov/2022 09:22:06] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:22:06 127.0.0.1 - - [28/Nov/2022 09:22:06] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:22:06 127.0.0.1 - - [28/Nov/2022 09:22:06] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:24:57 Get the user input
+2022-11-28 09:24:57 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:24:57 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:24:57 Padding to the tokens
+2022-11-28 09:24:57 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:24:57 Get the predictions
+2022-11-28 09:24:57 Our model predicted this news as Sports.
+2022-11-28 09:24:57 127.0.0.1 - - [28/Nov/2022 09:24:57] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:24:57 127.0.0.1 - - [28/Nov/2022 09:24:57] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:24:57 127.0.0.1 - - [28/Nov/2022 09:24:57] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:25:15 Get the user input
+2022-11-28 09:25:15 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:25:15 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:25:15 Padding to the tokens
+2022-11-28 09:25:15 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:25:15 Get the predictions
+2022-11-28 09:25:15 Our model predicted this news as Sports.
+2022-11-28 09:25:15 127.0.0.1 - - [28/Nov/2022 09:25:15] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:25:15 127.0.0.1 - - [28/Nov/2022 09:25:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:25:15 127.0.0.1 - - [28/Nov/2022 09:25:15] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:25:27 Get the user input
+2022-11-28 09:25:27 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:25:27 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:25:27 Padding to the tokens
+2022-11-28 09:25:27 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:25:27 Get the predictions
+2022-11-28 09:25:27 Our model predicted this news as Sports.
+2022-11-28 09:25:27 127.0.0.1 - - [28/Nov/2022 09:25:27] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:25:27 127.0.0.1 - - [28/Nov/2022 09:25:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:25:27 127.0.0.1 - - [28/Nov/2022 09:25:27] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:25:39 Get the user input
+2022-11-28 09:25:39 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:25:39 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:25:39 Padding to the tokens
+2022-11-28 09:25:39 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:25:39 Get the predictions
+2022-11-28 09:25:39 Our model predicted this news as Sports.
+2022-11-28 09:25:39 127.0.0.1 - - [28/Nov/2022 09:25:39] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:25:39 127.0.0.1 - - [28/Nov/2022 09:25:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:25:39 127.0.0.1 - - [28/Nov/2022 09:25:39] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:26:27 Get the user input
+2022-11-28 09:26:27 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:26:27 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:26:27 Padding to the tokens
+2022-11-28 09:26:27 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:26:27 Get the predictions
+2022-11-28 09:26:27 Our model predicted this news as Sports.
+2022-11-28 09:26:27 127.0.0.1 - - [28/Nov/2022 09:26:27] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:26:27 127.0.0.1 - - [28/Nov/2022 09:26:27] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:26:27 127.0.0.1 - - [28/Nov/2022 09:26:27] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:28:35 Get the user input
+2022-11-28 09:28:35 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:28:35 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:28:35 Padding to the tokens
+2022-11-28 09:28:35 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:28:35 Get the predictions
+2022-11-28 09:28:35 Our model predicted this news as Sports.
+2022-11-28 09:28:35 127.0.0.1 - - [28/Nov/2022 09:28:35] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:28:35 127.0.0.1 - - [28/Nov/2022 09:28:35] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:28:35 127.0.0.1 - - [28/Nov/2022 09:28:35] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:28:48 Get the user input
+2022-11-28 09:28:48 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:28:48 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:28:48 Padding to the tokens
+2022-11-28 09:28:48 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:28:48 Get the predictions
+2022-11-28 09:28:48 Our model predicted this news as Sports.
+2022-11-28 09:28:48 127.0.0.1 - - [28/Nov/2022 09:28:48] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:28:48 127.0.0.1 - - [28/Nov/2022 09:28:48] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:28:48 127.0.0.1 - - [28/Nov/2022 09:28:48] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:29:00 Get the user input
+2022-11-28 09:29:00 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:29:00 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:29:00 Padding to the tokens
+2022-11-28 09:29:00 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:29:00 Get the predictions
+2022-11-28 09:29:00 Our model predicted this news as Sports.
+2022-11-28 09:29:00 127.0.0.1 - - [28/Nov/2022 09:29:00] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:29:00 127.0.0.1 - - [28/Nov/2022 09:29:00] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:29:00 127.0.0.1 - - [28/Nov/2022 09:29:00] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:29:11 Get the user input
+2022-11-28 09:29:11 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:29:11 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:29:11 Padding to the tokens
+2022-11-28 09:29:11 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:29:11 Get the predictions
+2022-11-28 09:29:11 Our model predicted this news as Sports.
+2022-11-28 09:29:11 127.0.0.1 - - [28/Nov/2022 09:29:11] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:29:11 127.0.0.1 - - [28/Nov/2022 09:29:11] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:29:11 127.0.0.1 - - [28/Nov/2022 09:29:11] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:29:36 Get the user input
+2022-11-28 09:29:36 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:29:36 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:29:36 Padding to the tokens
+2022-11-28 09:29:36 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:29:36 Get the predictions
+2022-11-28 09:29:36 Our model predicted this news as Sports.
+2022-11-28 09:29:36 127.0.0.1 - - [28/Nov/2022 09:29:36] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:29:36 127.0.0.1 - - [28/Nov/2022 09:29:36] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:29:36 127.0.0.1 - - [28/Nov/2022 09:29:36] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:29:47 Get the user input
+2022-11-28 09:29:47 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:29:47 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:29:47 Padding to the tokens
+2022-11-28 09:29:47 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:29:47 Get the predictions
+2022-11-28 09:29:47 Our model predicted this news as Sports.
+2022-11-28 09:29:47 127.0.0.1 - - [28/Nov/2022 09:29:47] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:29:47 127.0.0.1 - - [28/Nov/2022 09:29:47] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:29:47 127.0.0.1 - - [28/Nov/2022 09:29:47] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:30:04 Get the user input
+2022-11-28 09:30:04 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:30:04 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:30:04 Padding to the tokens
+2022-11-28 09:30:04 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:30:04 Get the predictions
+2022-11-28 09:30:04 Our model predicted this news as Sports.
+2022-11-28 09:30:04 127.0.0.1 - - [28/Nov/2022 09:30:04] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:30:04 127.0.0.1 - - [28/Nov/2022 09:30:04] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:30:04 127.0.0.1 - - [28/Nov/2022 09:30:04] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:30:15 Get the user input
+2022-11-28 09:30:15 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:30:15 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:30:15 Padding to the tokens
+2022-11-28 09:30:15 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:30:15 Get the predictions
+2022-11-28 09:30:15 Our model predicted this news as Sports.
+2022-11-28 09:30:15 127.0.0.1 - - [28/Nov/2022 09:30:15] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:30:15 127.0.0.1 - - [28/Nov/2022 09:30:15] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:30:15 127.0.0.1 - - [28/Nov/2022 09:30:15] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:30:24 Get the user input
+2022-11-28 09:30:24 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:30:24 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:30:24 Padding to the tokens
+2022-11-28 09:30:24 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:30:24 Get the predictions
+2022-11-28 09:30:24 Our model predicted this news as Sports.
+2022-11-28 09:30:24 127.0.0.1 - - [28/Nov/2022 09:30:24] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:30:24 127.0.0.1 - - [28/Nov/2022 09:30:24] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:30:24 127.0.0.1 - - [28/Nov/2022 09:30:24] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:30:43 Get the user input
+2022-11-28 09:30:43 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:30:43 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:30:43 Padding to the tokens
+2022-11-28 09:30:43 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:30:43 Get the predictions
+2022-11-28 09:30:43 Our model predicted this news as Sports.
+2022-11-28 09:30:43 127.0.0.1 - - [28/Nov/2022 09:30:43] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:30:43 127.0.0.1 - - [28/Nov/2022 09:30:43] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:30:43 127.0.0.1 - - [28/Nov/2022 09:30:43] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:30:53 Get the user input
+2022-11-28 09:30:53 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:30:53 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:30:53 Padding to the tokens
+2022-11-28 09:30:53 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:30:53 Get the predictions
+2022-11-28 09:30:53 Our model predicted this news as Sports.
+2022-11-28 09:30:53 127.0.0.1 - - [28/Nov/2022 09:30:53] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:30:53 127.0.0.1 - - [28/Nov/2022 09:30:53] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:30:53 127.0.0.1 - - [28/Nov/2022 09:30:53] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:31:21 Get the user input
+2022-11-28 09:31:21 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:31:21 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:31:21 Padding to the tokens
+2022-11-28 09:31:21 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:31:21 Get the predictions
+2022-11-28 09:31:21 Our model predicted this news as Sports.
+2022-11-28 09:31:21 127.0.0.1 - - [28/Nov/2022 09:31:21] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:31:21 127.0.0.1 - - [28/Nov/2022 09:31:21] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:31:21 127.0.0.1 - - [28/Nov/2022 09:31:21] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:31:34 Get the user input
+2022-11-28 09:31:34 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:31:34 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:31:34 Padding to the tokens
+2022-11-28 09:31:34 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:31:34 Get the predictions
+2022-11-28 09:31:34 Our model predicted this news as Sports.
+2022-11-28 09:31:34 127.0.0.1 - - [28/Nov/2022 09:31:34] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:31:34 127.0.0.1 - - [28/Nov/2022 09:31:34] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:31:34 127.0.0.1 - - [28/Nov/2022 09:31:34] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:31:46 Get the user input
+2022-11-28 09:31:46 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:31:46 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:31:46 Padding to the tokens
+2022-11-28 09:31:46 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:31:46 Get the predictions
+2022-11-28 09:31:46 Our model predicted this news as Sports.
+2022-11-28 09:31:46 127.0.0.1 - - [28/Nov/2022 09:31:46] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:31:46 127.0.0.1 - - [28/Nov/2022 09:31:46] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:31:46 127.0.0.1 - - [28/Nov/2022 09:31:46] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:32:33 Get the user input
+2022-11-28 09:32:33 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:32:33 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:32:33 Padding to the tokens
+2022-11-28 09:32:33 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:32:33 Get the predictions
+2022-11-28 09:32:33 Our model predicted this news as Sports.
+2022-11-28 09:32:33 127.0.0.1 - - [28/Nov/2022 09:32:33] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:32:33 127.0.0.1 - - [28/Nov/2022 09:32:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:32:34 127.0.0.1 - - [28/Nov/2022 09:32:34] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:32:52 Get the user input
+2022-11-28 09:32:52 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:32:52 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:32:52 Padding to the tokens
+2022-11-28 09:32:52 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:32:53 Get the predictions
+2022-11-28 09:32:53 Our model predicted this news as Sports.
+2022-11-28 09:32:53 127.0.0.1 - - [28/Nov/2022 09:32:53] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:32:53 127.0.0.1 - - [28/Nov/2022 09:32:53] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:32:53 127.0.0.1 - - [28/Nov/2022 09:32:53] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:33:03 Get the user input
+2022-11-28 09:33:03 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:33:03 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:33:03 Padding to the tokens
+2022-11-28 09:33:03 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:33:03 Get the predictions
+2022-11-28 09:33:03 Our model predicted this news as Sports.
+2022-11-28 09:33:03 127.0.0.1 - - [28/Nov/2022 09:33:03] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:33:03 127.0.0.1 - - [28/Nov/2022 09:33:03] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:33:03 127.0.0.1 - - [28/Nov/2022 09:33:03] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:33:15 Get the user input
+2022-11-28 09:33:15 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:33:15 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:33:15 Padding to the tokens
+2022-11-28 09:33:15 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:33:15 Get the predictions
+2022-11-28 09:33:15 Our model predicted this news as Sports.
+2022-11-28 09:33:15 127.0.0.1 - - [28/Nov/2022 09:33:15] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:33:15 127.0.0.1 - - [28/Nov/2022 09:33:15] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:33:15 127.0.0.1 - - [28/Nov/2022 09:33:15] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:33:37 Get the user input
+2022-11-28 09:33:37 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:33:37 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:33:37 Padding to the tokens
+2022-11-28 09:33:37 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:33:37 Get the predictions
+2022-11-28 09:33:37 Our model predicted this news as Sports.
+2022-11-28 09:33:37 127.0.0.1 - - [28/Nov/2022 09:33:37] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:33:38 127.0.0.1 - - [28/Nov/2022 09:33:38] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:33:38 127.0.0.1 - - [28/Nov/2022 09:33:38] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:33:49 Get the user input
+2022-11-28 09:33:49 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:33:49 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:33:49 Padding to the tokens
+2022-11-28 09:33:49 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:33:49 Get the predictions
+2022-11-28 09:33:49 Our model predicted this news as Sports.
+2022-11-28 09:33:49 127.0.0.1 - - [28/Nov/2022 09:33:49] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:33:49 127.0.0.1 - - [28/Nov/2022 09:33:49] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:33:49 127.0.0.1 - - [28/Nov/2022 09:33:49] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:34:07 Get the user input
+2022-11-28 09:34:07 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:34:07 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:34:07 Padding to the tokens
+2022-11-28 09:34:07 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:34:07 Get the predictions
+2022-11-28 09:34:07 Our model predicted this news as Sports.
+2022-11-28 09:34:07 127.0.0.1 - - [28/Nov/2022 09:34:07] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:34:07 127.0.0.1 - - [28/Nov/2022 09:34:07] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:34:07 127.0.0.1 - - [28/Nov/2022 09:34:07] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:35:39 Get the user input
+2022-11-28 09:35:39 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:35:39 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:35:39 Padding to the tokens
+2022-11-28 09:35:39 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:35:39 Get the predictions
+2022-11-28 09:35:39 Our model predicted this news as Business
+2022-11-28 09:35:39 127.0.0.1 - - [28/Nov/2022 09:35:39] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:35:39 127.0.0.1 - - [28/Nov/2022 09:35:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:35:39 127.0.0.1 - - [28/Nov/2022 09:35:39] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:35:53 Get the user input
+2022-11-28 09:35:53 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:35:53 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:35:53 Padding to the tokens
+2022-11-28 09:35:53 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:35:53 Get the predictions
+2022-11-28 09:35:53 Our model predicted this news as Business
+2022-11-28 09:35:53 127.0.0.1 - - [28/Nov/2022 09:35:53] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:35:53 127.0.0.1 - - [28/Nov/2022 09:35:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:35:53 127.0.0.1 - - [28/Nov/2022 09:35:53] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:36:06 Get the user input
+2022-11-28 09:36:06 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:36:06 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:36:06 Padding to the tokens
+2022-11-28 09:36:06 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:36:06 Get the predictions
+2022-11-28 09:36:06 Our model predicted this news as Business
+2022-11-28 09:36:06 127.0.0.1 - - [28/Nov/2022 09:36:06] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:36:06 127.0.0.1 - - [28/Nov/2022 09:36:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:36:06 127.0.0.1 - - [28/Nov/2022 09:36:06] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:36:27 Get the user input
+2022-11-28 09:36:27 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:36:27 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:36:27 Padding to the tokens
+2022-11-28 09:36:27 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:36:27 Get the predictions
+2022-11-28 09:36:27 Our model predicted this news as Business
+2022-11-28 09:36:27 127.0.0.1 - - [28/Nov/2022 09:36:27] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:36:27 127.0.0.1 - - [28/Nov/2022 09:36:27] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:36:28 127.0.0.1 - - [28/Nov/2022 09:36:28] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:36:40 Get the user input
+2022-11-28 09:36:40 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:36:40 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:36:40 Padding to the tokens
+2022-11-28 09:36:40 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:36:41 Get the predictions
+2022-11-28 09:36:41 Our model predicted this news as Business
+2022-11-28 09:36:41 127.0.0.1 - - [28/Nov/2022 09:36:41] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:36:41 127.0.0.1 - - [28/Nov/2022 09:36:41] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:36:41 127.0.0.1 - - [28/Nov/2022 09:36:41] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:37:13 Get the user input
+2022-11-28 09:37:13 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:37:13 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:37:13 Padding to the tokens
+2022-11-28 09:37:13 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:37:13 Get the predictions
+2022-11-28 09:37:13 Our model predicted this news as Business
+2022-11-28 09:37:13 127.0.0.1 - - [28/Nov/2022 09:37:13] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:37:13 127.0.0.1 - - [28/Nov/2022 09:37:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:37:13 127.0.0.1 - - [28/Nov/2022 09:37:13] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:37:34 Get the user input
+2022-11-28 09:37:34 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:37:34 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:37:34 Padding to the tokens
+2022-11-28 09:37:34 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:37:35 Get the predictions
+2022-11-28 09:37:35 Our model predicted this news as Business
+2022-11-28 09:37:35 127.0.0.1 - - [28/Nov/2022 09:37:35] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:37:35 127.0.0.1 - - [28/Nov/2022 09:37:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:37:35 127.0.0.1 - - [28/Nov/2022 09:37:35] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:39:40 Get the user input
+2022-11-28 09:39:40 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:39:40 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:39:40 Padding to the tokens
+2022-11-28 09:39:40 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:39:40 Get the predictions
+2022-11-28 09:39:40 Our model predicted this news as Business
+2022-11-28 09:39:40 127.0.0.1 - - [28/Nov/2022 09:39:40] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:39:40 127.0.0.1 - - [28/Nov/2022 09:39:40] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:39:40 127.0.0.1 - - [28/Nov/2022 09:39:40] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:40:54 Get the Tensorflow GPU
+2022-11-28 09:40:54 Load saved "CNN" model
+2022-11-28 09:40:54 Open 'tokenizer' as json to our raw data
+2022-11-28 09:40:54 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-28 09:40:54 [33mPress CTRL+C to quit[0m
+2022-11-28 09:40:54  * Restarting with stat
+2022-11-28 09:41:01 Get the Tensorflow GPU
+2022-11-28 09:41:01 Load saved "CNN" model
+2022-11-28 09:41:01 Open 'tokenizer' as json to our raw data
+2022-11-28 09:41:02  * Debugger is active!
+2022-11-28 09:41:02  * Debugger PIN: 172-376-520
+2022-11-28 09:42:56 127.0.0.1 - - [28/Nov/2022 09:42:56] "GET / HTTP/1.1" 200 -
+2022-11-28 09:42:56 127.0.0.1 - - [28/Nov/2022 09:42:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:42:56 127.0.0.1 - - [28/Nov/2022 09:42:56] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:42:56 127.0.0.1 - - [28/Nov/2022 09:42:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-28 09:43:15 Get the user input
+2022-11-28 09:43:15 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:43:15 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:43:15 Padding to the tokens
+2022-11-28 09:43:15 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:43:15 Get the predictions
+2022-11-28 09:43:15 Our model predicted this news as Entertainment.
+2022-11-28 09:43:15 127.0.0.1 - - [28/Nov/2022 09:43:15] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:43:16 127.0.0.1 - - [28/Nov/2022 09:43:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:43:16 127.0.0.1 - - [28/Nov/2022 09:43:16] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:43:50 Get the user input
+2022-11-28 09:43:50 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:43:50 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:43:50 Padding to the tokens
+2022-11-28 09:43:50 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:43:50 Get the predictions
+2022-11-28 09:43:50 Our model predicted this news as Entertainment.
+2022-11-28 09:43:50 127.0.0.1 - - [28/Nov/2022 09:43:50] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:43:50 127.0.0.1 - - [28/Nov/2022 09:43:50] "GET /static/style.css HTTP/1.1" 200 -
+2022-11-28 09:43:50 127.0.0.1 - - [28/Nov/2022 09:43:50] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:44:01 Get the user input
+2022-11-28 09:44:01 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:44:01 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:44:01 Padding to the tokens
+2022-11-28 09:44:01 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:44:01 Get the predictions
+2022-11-28 09:44:01 Our model predicted this news as Sports.
+2022-11-28 09:44:01 127.0.0.1 - - [28/Nov/2022 09:44:01] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:44:01 127.0.0.1 - - [28/Nov/2022 09:44:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:44:01 127.0.0.1 - - [28/Nov/2022 09:44:01] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:44:15 127.0.0.1 - - [28/Nov/2022 09:44:15] "GET / HTTP/1.1" 200 -
+2022-11-28 09:44:15 127.0.0.1 - - [28/Nov/2022 09:44:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:44:15 127.0.0.1 - - [28/Nov/2022 09:44:15] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:44:33 Get the user input
+2022-11-28 09:44:33 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:44:33 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:44:33 Padding to the tokens
+2022-11-28 09:44:33 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:44:34 Get the predictions
+2022-11-28 09:44:34 Our model predicted this news as Sports.
+2022-11-28 09:44:34 127.0.0.1 - - [28/Nov/2022 09:44:34] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:44:34 127.0.0.1 - - [28/Nov/2022 09:44:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:44:34 127.0.0.1 - - [28/Nov/2022 09:44:34] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:45:01 Get the user input
+2022-11-28 09:45:01 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:45:01 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:45:01 Padding to the tokens
+2022-11-28 09:45:01 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:45:01 Get the predictions
+2022-11-28 09:45:01 Our model predicted this news as Sports.
+2022-11-28 09:45:01 127.0.0.1 - - [28/Nov/2022 09:45:01] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:45:01 127.0.0.1 - - [28/Nov/2022 09:45:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:45:01 127.0.0.1 - - [28/Nov/2022 09:45:01] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:45:10 127.0.0.1 - - [28/Nov/2022 09:45:10] "GET / HTTP/1.1" 200 -
+2022-11-28 09:45:10 127.0.0.1 - - [28/Nov/2022 09:45:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:45:10 127.0.0.1 - - [28/Nov/2022 09:45:10] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 09:47:18 Get the user input
+2022-11-28 09:47:18 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 09:47:18 Tokenize the words from the data which is preprocessed.
+2022-11-28 09:47:18 Padding to the tokens
+2022-11-28 09:47:18 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 09:47:18 Get the predictions
+2022-11-28 09:47:18 Our model predicted this news as Sports.
+2022-11-28 09:47:18 127.0.0.1 - - [28/Nov/2022 09:47:18] "POST /predict HTTP/1.1" 200 -
+2022-11-28 09:47:18 127.0.0.1 - - [28/Nov/2022 09:47:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 09:47:18 127.0.0.1 - - [28/Nov/2022 09:47:18] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 20:18:49 Get the Tensorflow GPU
+2022-11-28 20:18:49 Load saved "CNN" model
+2022-11-28 20:18:51 Open 'tokenizer' as json to our raw data
+2022-11-28 20:18:52 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-11-28 20:18:52 [33mPress CTRL+C to quit[0m
+2022-11-28 20:18:52  * Restarting with stat
+2022-11-28 20:19:20 Get the Tensorflow GPU
+2022-11-28 20:19:21 Load saved "CNN" model
+2022-11-28 20:19:22 Open 'tokenizer' as json to our raw data
+2022-11-28 20:19:23  * Debugger is active!
+2022-11-28 20:19:23  * Debugger PIN: 242-789-399
+2022-11-28 20:19:23 127.0.0.1 - - [28/Nov/2022 20:19:23] "GET / HTTP/1.1" 200 -
+2022-11-28 20:19:23 127.0.0.1 - - [28/Nov/2022 20:19:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 20:19:23 127.0.0.1 - - [28/Nov/2022 20:19:23] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-11-28 20:19:23 127.0.0.1 - - [28/Nov/2022 20:19:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-11-28 20:19:59 Get the user input
+2022-11-28 20:19:59 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-11-28 20:19:59 Tokenize the words from the data which is preprocessed.
+2022-11-28 20:19:59 Padding to the tokens
+2022-11-28 20:19:59 Pass the preprocessed and pad sentences to our model for prediction
+2022-11-28 20:20:06 Get the predictions
+2022-11-28 20:20:06 Our model predicted this news as Sports.
+2022-11-28 20:20:06 127.0.0.1 - - [28/Nov/2022 20:20:06] "POST /predict HTTP/1.1" 200 -
+2022-11-28 20:20:06 127.0.0.1 - - [28/Nov/2022 20:20:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-11-28 20:20:06 127.0.0.1 - - [28/Nov/2022 20:20:06] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-01 09:03:34 Get the Tensorflow GPU
+2022-12-01 09:03:34 Load saved "CNN" model
+2022-12-01 09:03:34 Open 'tokenizer' as json to our raw data
+2022-12-01 09:03:35 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-01 09:03:35 [33mPress CTRL+C to quit[0m
+2022-12-01 09:03:35  * Restarting with stat
+2022-12-01 09:03:53 Get the Tensorflow GPU
+2022-12-01 09:03:53 Load saved "CNN" model
+2022-12-01 09:03:54 Open 'tokenizer' as json to our raw data
+2022-12-01 09:03:54  * Debugger is active!
+2022-12-01 09:03:54  * Debugger PIN: 172-376-520
+2022-12-01 09:04:14 127.0.0.1 - - [01/Dec/2022 09:04:14] "GET / HTTP/1.1" 200 -
+2022-12-01 09:04:14 127.0.0.1 - - [01/Dec/2022 09:04:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-01 09:04:14 127.0.0.1 - - [01/Dec/2022 09:04:14] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-01 09:04:15 127.0.0.1 - - [01/Dec/2022 09:04:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-01 09:05:11 Get the user input
+2022-12-01 09:05:11 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-01 09:05:11 Tokenize the words from the data which is preprocessed.
+2022-12-01 09:05:11 Padding to the tokens
+2022-12-01 09:05:11 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-01 09:05:12 Get the predictions
+2022-12-01 09:05:12 Our model predicted this news as Politics.
+2022-12-01 09:05:12 127.0.0.1 - - [01/Dec/2022 09:05:12] "POST /predict HTTP/1.1" 200 -
+2022-12-01 09:05:12 127.0.0.1 - - [01/Dec/2022 09:05:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-01 09:05:12 127.0.0.1 - - [01/Dec/2022 09:05:12] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:54:34 Get the Tensorflow GPU
+2022-12-02 08:54:34 Load saved "CNN" model
+2022-12-02 08:54:35 Open 'tokenizer' as json to our raw data
+2022-12-02 08:54:35 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-02 08:54:35 [33mPress CTRL+C to quit[0m
+2022-12-02 08:54:35  * Restarting with stat
+2022-12-02 08:54:45 Get the Tensorflow GPU
+2022-12-02 08:54:45 Load saved "CNN" model
+2022-12-02 08:54:45 Open 'tokenizer' as json to our raw data
+2022-12-02 08:54:45  * Debugger is active!
+2022-12-02 08:54:45  * Debugger PIN: 242-789-399
+2022-12-02 08:54:52 127.0.0.1 - - [02/Dec/2022 08:54:52] "GET / HTTP/1.1" 200 -
+2022-12-02 08:54:52 127.0.0.1 - - [02/Dec/2022 08:54:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:54:52 127.0.0.1 - - [02/Dec/2022 08:54:52] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:54:52 127.0.0.1 - - [02/Dec/2022 08:54:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-02 08:55:40 Get the user input
+2022-12-02 08:55:40 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-02 08:55:40 Tokenize the words from the data which is preprocessed.
+2022-12-02 08:55:40 Padding to the tokens
+2022-12-02 08:55:40 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-02 08:55:41 Get the predictions
+2022-12-02 08:55:41 Our model predicted this news as Entertainment.
+2022-12-02 08:55:41 127.0.0.1 - - [02/Dec/2022 08:55:41] "POST /predict HTTP/1.1" 200 -
+2022-12-02 08:55:41 127.0.0.1 - - [02/Dec/2022 08:55:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:55:41 127.0.0.1 - - [02/Dec/2022 08:55:41] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:55:53 Get the user input
+2022-12-02 08:55:53 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-02 08:55:53 Tokenize the words from the data which is preprocessed.
+2022-12-02 08:55:53 Padding to the tokens
+2022-12-02 08:55:53 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-02 08:55:53 Get the predictions
+2022-12-02 08:55:53 Our model predicted this news as Politics.
+2022-12-02 08:55:53 127.0.0.1 - - [02/Dec/2022 08:55:53] "POST /predict HTTP/1.1" 200 -
+2022-12-02 08:55:53 127.0.0.1 - - [02/Dec/2022 08:55:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:55:53 127.0.0.1 - - [02/Dec/2022 08:55:53] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:56:07 Get the user input
+2022-12-02 08:56:07 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-02 08:56:07 Tokenize the words from the data which is preprocessed.
+2022-12-02 08:56:07 Padding to the tokens
+2022-12-02 08:56:07 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-02 08:56:07 Get the predictions
+2022-12-02 08:56:07 Our model predicted this news as Politics.
+2022-12-02 08:56:07 127.0.0.1 - - [02/Dec/2022 08:56:07] "POST /predict HTTP/1.1" 200 -
+2022-12-02 08:56:07 127.0.0.1 - - [02/Dec/2022 08:56:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:56:07 127.0.0.1 - - [02/Dec/2022 08:56:07] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:56:23 Get the user input
+2022-12-02 08:56:23 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-02 08:56:23 Tokenize the words from the data which is preprocessed.
+2022-12-02 08:56:23 Padding to the tokens
+2022-12-02 08:56:23 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-02 08:56:23 Get the predictions
+2022-12-02 08:56:23 Our model predicted this news as Entertainment.
+2022-12-02 08:56:23 127.0.0.1 - - [02/Dec/2022 08:56:23] "POST /predict HTTP/1.1" 200 -
+2022-12-02 08:56:24 127.0.0.1 - - [02/Dec/2022 08:56:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:56:24 127.0.0.1 - - [02/Dec/2022 08:56:24] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:57:04 Get the user input
+2022-12-02 08:57:04 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-02 08:57:04 Tokenize the words from the data which is preprocessed.
+2022-12-02 08:57:04 Padding to the tokens
+2022-12-02 08:57:04 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-02 08:57:04 Get the predictions
+2022-12-02 08:57:04 Our model predicted this news as Sports.
+2022-12-02 08:57:04 127.0.0.1 - - [02/Dec/2022 08:57:04] "POST /predict HTTP/1.1" 200 -
+2022-12-02 08:57:04 127.0.0.1 - - [02/Dec/2022 08:57:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:57:04 127.0.0.1 - - [02/Dec/2022 08:57:04] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:57:56 Get the user input
+2022-12-02 08:57:56 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-02 08:57:56 Tokenize the words from the data which is preprocessed.
+2022-12-02 08:57:56 Padding to the tokens
+2022-12-02 08:57:56 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-02 08:57:56 Get the predictions
+2022-12-02 08:57:56 Our model predicted this news as Technology.
+2022-12-02 08:57:56 127.0.0.1 - - [02/Dec/2022 08:57:56] "POST /predict HTTP/1.1" 200 -
+2022-12-02 08:57:56 127.0.0.1 - - [02/Dec/2022 08:57:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:57:56 127.0.0.1 - - [02/Dec/2022 08:57:56] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:58:34 Get the user input
+2022-12-02 08:58:34 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-02 08:58:34 Tokenize the words from the data which is preprocessed.
+2022-12-02 08:58:34 Padding to the tokens
+2022-12-02 08:58:34 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-02 08:58:34 Get the predictions
+2022-12-02 08:58:34 Our model predicted this news as Business
+2022-12-02 08:58:34 127.0.0.1 - - [02/Dec/2022 08:58:34] "POST /predict HTTP/1.1" 200 -
+2022-12-02 08:58:34 127.0.0.1 - - [02/Dec/2022 08:58:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:58:34 127.0.0.1 - - [02/Dec/2022 08:58:34] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:58:47 Get the user input
+2022-12-02 08:58:47 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-02 08:58:47 Tokenize the words from the data which is preprocessed.
+2022-12-02 08:58:47 Padding to the tokens
+2022-12-02 08:58:47 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-02 08:58:47 Get the predictions
+2022-12-02 08:58:47 Our model predicted this news as Business
+2022-12-02 08:58:47 127.0.0.1 - - [02/Dec/2022 08:58:47] "POST /predict HTTP/1.1" 200 -
+2022-12-02 08:58:48 127.0.0.1 - - [02/Dec/2022 08:58:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:58:48 127.0.0.1 - - [02/Dec/2022 08:58:48] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-02 08:59:11 Get the user input
+2022-12-02 08:59:11 Preprocess the raw message by lowering, removing punctuations, multiple spaces.
+2022-12-02 08:59:11 Tokenize the words from the data which is preprocessed.
+2022-12-02 08:59:11 Padding to the tokens
+2022-12-02 08:59:11 Pass the preprocessed and pad sentences to our model for prediction
+2022-12-02 08:59:11 Get the predictions
+2022-12-02 08:59:11 Our model predicted this news as Business
+2022-12-02 08:59:11 127.0.0.1 - - [02/Dec/2022 08:59:11] "POST /predict HTTP/1.1" 200 -
+2022-12-02 08:59:11 127.0.0.1 - - [02/Dec/2022 08:59:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-02 08:59:11 127.0.0.1 - - [02/Dec/2022 08:59:11] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-12 08:40:38 Get the Tensorflow GPU
+2022-12-12 08:40:38 Load saved "CNN" model
+2022-12-12 08:40:39 Open 'tokenizer' as json to our raw data
+2022-12-12 08:40:39 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-12 08:40:39 [33mPress CTRL+C to quit[0m
+2022-12-12 08:40:39  * Restarting with stat
+2022-12-12 08:40:46 Get the Tensorflow GPU
+2022-12-12 08:40:46 Load saved "CNN" model
+2022-12-12 08:40:46 Open 'tokenizer' as json to our raw data
+2022-12-12 08:40:47  * Debugger is active!
+2022-12-12 08:40:47  * Debugger PIN: 242-789-399
+2022-12-12 08:42:46 127.0.0.1 - - [12/Dec/2022 08:42:46] "GET / HTTP/1.1" 200 -
+2022-12-12 08:42:46 127.0.0.1 - - [12/Dec/2022 08:42:46] "GET /static/style.css HTTP/1.1" 200 -
+2022-12-12 08:42:46 127.0.0.1 - - [12/Dec/2022 08:42:46] "GET /static/ineuron.jpeg HTTP/1.1" 200 -
+2022-12-12 08:42:47 127.0.0.1 - - [12/Dec/2022 08:42:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-12 08:43:26 Get the predictions
+2022-12-12 08:43:26 Our model predicted this news as Sports.
+2022-12-12 08:43:26 127.0.0.1 - - [12/Dec/2022 08:43:26] "POST /predict HTTP/1.1" 200 -
+2022-12-12 08:43:26 127.0.0.1 - - [12/Dec/2022 08:43:26] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-12 08:43:26 127.0.0.1 - - [12/Dec/2022 08:43:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-13 08:43:10 Get the Tensorflow GPU
+2022-12-13 08:43:10 Load saved "CNN" model
+2022-12-13 08:43:11 Open 'tokenizer' as json to our raw data
+2022-12-13 08:43:11 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-13 08:43:11 [33mPress CTRL+C to quit[0m
+2022-12-13 08:43:11  * Restarting with stat
+2022-12-13 08:43:19 Get the Tensorflow GPU
+2022-12-13 08:43:19 Load saved "CNN" model
+2022-12-13 08:43:19 Open 'tokenizer' as json to our raw data
+2022-12-13 08:43:19  * Debugger is active!
+2022-12-13 08:43:19  * Debugger PIN: 242-789-399
+2022-12-13 08:43:24 127.0.0.1 - - [13/Dec/2022 08:43:24] "GET / HTTP/1.1" 200 -
+2022-12-13 08:43:24 127.0.0.1 - - [13/Dec/2022 08:43:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-13 08:43:24 127.0.0.1 - - [13/Dec/2022 08:43:24] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-13 08:43:24 127.0.0.1 - - [13/Dec/2022 08:43:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-13 08:58:02 Get the predictions
+2022-12-13 08:58:02 Our model predicted this news as Business
+2022-12-13 08:58:02 127.0.0.1 - - [13/Dec/2022 08:58:02] "POST /predict HTTP/1.1" 200 -
+2022-12-13 08:58:02 127.0.0.1 - - [13/Dec/2022 08:58:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-13 08:58:02 127.0.0.1 - - [13/Dec/2022 08:58:02] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-13 08:59:00 Get the predictions
+2022-12-13 08:59:00 Our model predicted this news as Sports.
+2022-12-13 08:59:00 127.0.0.1 - - [13/Dec/2022 08:59:00] "POST /predict HTTP/1.1" 200 -
+2022-12-13 08:59:00 127.0.0.1 - - [13/Dec/2022 08:59:00] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-13 08:59:00 127.0.0.1 - - [13/Dec/2022 08:59:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-13 08:59:22 Get the predictions
+2022-12-13 08:59:22 Our model predicted this news as Sports.
+2022-12-13 08:59:22 127.0.0.1 - - [13/Dec/2022 08:59:22] "POST /predict HTTP/1.1" 200 -
+2022-12-13 08:59:22 127.0.0.1 - - [13/Dec/2022 08:59:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-13 08:59:22 127.0.0.1 - - [13/Dec/2022 08:59:22] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-19 08:25:37 Get the Tensorflow GPU
+2022-12-19 08:25:37 Load saved "CNN" model
+2022-12-19 08:25:37 Open 'tokenizer' as json to our raw data
+2022-12-19 08:25:37 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2022-12-19 08:25:37 [33mPress CTRL+C to quit[0m
+2022-12-19 08:25:37  * Restarting with stat
+2022-12-19 08:25:43 Get the Tensorflow GPU
+2022-12-19 08:25:43 Load saved "CNN" model
+2022-12-19 08:25:43 Open 'tokenizer' as json to our raw data
+2022-12-19 08:25:43  * Debugger is active!
+2022-12-19 08:25:43  * Debugger PIN: 242-789-399
+2022-12-19 08:26:02 127.0.0.1 - - [19/Dec/2022 08:26:02] "GET / HTTP/1.1" 200 -
+2022-12-19 08:26:02 127.0.0.1 - - [19/Dec/2022 08:26:02] "GET /static/style.css HTTP/1.1" 200 -
+2022-12-19 08:26:02 127.0.0.1 - - [19/Dec/2022 08:26:02] "GET /static/ineuron.jpeg HTTP/1.1" 200 -
+2022-12-19 08:26:02 127.0.0.1 - - [19/Dec/2022 08:26:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-19 08:26:58 Get the predictions
+2022-12-19 08:26:58 Our model predicted this news as Sports.
+2022-12-19 08:26:58 127.0.0.1 - - [19/Dec/2022 08:26:58] "POST /predict HTTP/1.1" 200 -
+2022-12-19 08:26:58 127.0.0.1 - - [19/Dec/2022 08:26:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-19 08:26:58 127.0.0.1 - - [19/Dec/2022 08:26:58] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-30 20:33:39 Get the Tensorflow GPU
+2022-12-30 20:33:39 Load saved "CNN" model
+2022-12-30 20:33:39 Open 'tokenizer' as json to our raw data
+2022-12-30 20:33:39  * Restarting with stat
+2022-12-30 20:33:47 Get the Tensorflow GPU
+2022-12-30 20:33:47 Load saved "CNN" model
+2022-12-30 20:33:48 Open 'tokenizer' as json to our raw data
+2022-12-30 20:33:48  * Debugger is active!
+2022-12-30 20:33:48  * Debugger PIN: 525-219-240
+2022-12-30 20:33:59  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-12-30 20:34:00 127.0.0.1 - - [30/Dec/2022 20:34:00] "GET / HTTP/1.1" 200 -
+2022-12-30 20:34:01 127.0.0.1 - - [30/Dec/2022 20:34:01] "GET /static/style.css HTTP/1.1" 200 -
+2022-12-30 20:34:01 127.0.0.1 - - [30/Dec/2022 20:34:01] "GET /static/ineuron.jpeg HTTP/1.1" 200 -
+2022-12-30 20:34:01 127.0.0.1 - - [30/Dec/2022 20:34:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-12-30 20:35:04 Get the predictions
+2022-12-30 20:35:04 Our model predicted this news as Entertainment.
+2022-12-30 20:35:04 127.0.0.1 - - [30/Dec/2022 20:35:04] "POST /predict HTTP/1.1" 200 -
+2022-12-30 20:35:04 127.0.0.1 - - [30/Dec/2022 20:35:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-30 20:35:04 127.0.0.1 - - [30/Dec/2022 20:35:04] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2022-12-30 20:35:19 Get the predictions
+2022-12-30 20:35:19 Our model predicted this news as Sports.
+2022-12-30 20:35:19 127.0.0.1 - - [30/Dec/2022 20:35:19] "POST /predict HTTP/1.1" 200 -
+2022-12-30 20:35:19 127.0.0.1 - - [30/Dec/2022 20:35:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2022-12-30 20:35:19 127.0.0.1 - - [30/Dec/2022 20:35:19] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -
+2023-01-03 14:07:58 Get the Tensorflow GPU
+2023-01-03 14:07:58 Load saved "CNN" model
+2023-01-03 14:07:59 Open 'tokenizer' as json to our raw data
+2023-01-03 14:07:59  * Restarting with stat
+2023-01-03 14:08:10 Get the Tensorflow GPU
+2023-01-03 14:08:10 Load saved "CNN" model
+2023-01-03 14:08:10 Open 'tokenizer' as json to our raw data
+2023-01-03 14:08:11  * Debugger is active!
+2023-01-03 14:08:11  * Debugger PIN: 525-219-240
+2023-01-03 14:08:37  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-01-03 14:09:17 127.0.0.1 - - [03/Jan/2023 14:09:17] "GET / HTTP/1.1" 200 -
+2023-01-03 14:09:19 127.0.0.1 - - [03/Jan/2023 14:09:19] "GET /static/style.css HTTP/1.1" 200 -
+2023-01-03 14:09:19 127.0.0.1 - - [03/Jan/2023 14:09:19] "GET /static/ineuron.jpeg HTTP/1.1" 200 -
+2023-01-03 14:09:21 127.0.0.1 - - [03/Jan/2023 14:09:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-01-03 14:10:11 Get the predictions
+2023-01-03 14:10:11 Our model predicted this news as Sports.
+2023-01-03 14:10:11 127.0.0.1 - - [03/Jan/2023 14:10:11] "POST /predict HTTP/1.1" 200 -
+2023-01-03 14:10:11 127.0.0.1 - - [03/Jan/2023 14:10:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-01-03 14:10:11 127.0.0.1 - - [03/Jan/2023 14:10:11] "[36mGET /static/ineuron.jpeg HTTP/1.1[0m" 304 -

@@ -1,0 +1,156 @@
+2022-11-23 09:35:27-INFO-DATA LOADING
+2022-11-23 09:35:27-INFO-Load Train dataset
+2022-11-23 09:35:27-INFO-Factorize the category label with numeric
+2022-11-23 09:35:27-INFO-Check first five rows: 
+   ArticleId                                               Text  Category  category_id
+0       1833  worldcom ex-boss launches defence lawyers defe...  business            0
+1        154  german business confidence slides german busin...  business            0
+2       1101  bbc poll indicates economic gloom citizens in ...  business            0
+3       1976  lifestyle  governs mobile choice  faster  bett...      tech            1
+4        917  enron bosses in $168m payout eighteen former e...  business            0
+2022-11-23 09:35:27-INFO-Check last five rows: 
+      ArticleId                                               Text       Category  category_id
+1485        857  double eviction from big brother model caprice...  entertainment            4
+1486        325  dj double act revamp chart show dj duo jk and ...  entertainment            4
+1487       1590  weak dollar hits reuters revenues at media gro...       business            0
+1488       1587  apple ipod family expands market apple has exp...           tech            1
+1489        538  santy worm makes unwelcome visit thousands of ...           tech            1
+2022-11-23 09:35:27-INFO-Dataset shape: (1490, 4)
+2022-11-23 09:35:27-INFO-****************************************************************************************************
+2022-11-23 09:35:27-INFO-DATA CLEANING
+2022-11-23 09:35:27-INFO-Apply preprocessing function to clean dataset
+2022-11-23 09:35:27-INFO-Saved cleaned dataset
+2022-11-23 09:35:27-INFO-****************************************************************************************************
+2022-11-23 09:35:27-INFO-DATA SPLITTING
+2022-11-23 09:35:27-INFO-Load cleaned.csv dataset
+2022-11-23 09:35:27-INFO-Get Independent features
+2022-11-23 09:35:27-INFO-Get Dependent features
+2022-11-23 09:35:27-INFO-Split the "Dependent" and "Independent" features as train and test sets
+2022-11-23 09:35:27-INFO-The length of train set features is : 1192
+2022-11-23 09:35:27-INFO-The length of test set features is : 298
+2022-11-23 09:35:27-INFO-The length of train set labels is : 1192
+2022-11-23 09:35:27-INFO-The length of test set labels is : 298
+2022-11-23 09:35:27-INFO-****************************************************************************************************
+2022-11-23 09:35:27-INFO-CATEGORICAL ENCODING
+2022-11-23 09:35:27-INFO-One Hot Encoder for labels
+2022-11-23 09:35:27-INFO-Print the first 10 samples of the encoded labels
+2022-11-23 09:35:27-INFO-y_train_one_hot: 
+[[0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 0. 1. 0. 0.]
+ [0. 0. 0. 1. 0.]
+ [0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]]
+2022-11-23 09:35:27-INFO-y_test_one_hot: 
+[[0. 1. 0. 0. 0.]
+ [0. 0. 1. 0. 0.]
+ [0. 0. 1. 0. 0.]
+ [0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1.]
+ [0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1.]]
+2022-11-23 09:35:27-INFO-y_train_label:[3 0 2 3 2 0 0 1 0 1]
+2022-11-23 09:35:27-INFO-y_test_label:[1 2 2 4 4 0 4 1 0 4]
+2022-11-23 09:35:27-INFO-Class Names:['business' 'entertainment' 'politics' 'sport' 'tech']
+2022-11-23 09:35:27-INFO-****************************************************************************************************
+2022-11-23 09:35:27-INFO-TOKENIZER AND PADDING
+2022-11-23 09:35:27-INFO-Get X_train and X_test sentences mapped to tokenizer and padding
+2022-11-23 09:35:28-INFO-Print first 5 samples from X_train and X_test 
+2022-11-23 09:35:28-INFO-X_train: [[ 714 4893  945 ...    0    0    0]
+ [ 511 2175    6 ...    0    0    0]
+ [ 771  221  817 ...    0    0    0]
+ [4895 3484 5844 ...    0    0    0]
+ [2991  988   85 ...    0    0    0]]
+2022-11-23 09:35:28-INFO-X_test: [[   7 2645   58 ...    0    0    0]
+ [ 266  138   58 ...    0    0    0]
+ [1634  661  138 ...    0    0    0]
+ [ 294  947    2 ...    0    0    0]
+ [1358  561 4100 ...    0    0    0]]
+2022-11-23 09:35:28-INFO-X_train and X_test shape
+2022-11-23 09:35:28-INFO-X_train shape: (1192, 593)
+2022-11-23 09:35:28-INFO-X_test shape: (298, 593)
+2022-12-19 08:23:32-INFO-DATA LOADING
+2022-12-19 08:23:32-INFO-Load Train dataset
+2022-12-19 08:23:32-INFO-Factorize the category label with numeric
+2022-12-19 08:23:32-INFO-Check first five rows: 
+   ArticleId                                               Text  Category  category_id
+0       1833  worldcom ex-boss launches defence lawyers defe...  business            0
+1        154  german business confidence slides german busin...  business            0
+2       1101  bbc poll indicates economic gloom citizens in ...  business            0
+3       1976  lifestyle  governs mobile choice  faster  bett...      tech            1
+4        917  enron bosses in $168m payout eighteen former e...  business            0
+2022-12-19 08:23:32-INFO-Check last five rows: 
+      ArticleId                                               Text       Category  category_id
+1485        857  double eviction from big brother model caprice...  entertainment            4
+1486        325  dj double act revamp chart show dj duo jk and ...  entertainment            4
+1487       1590  weak dollar hits reuters revenues at media gro...       business            0
+1488       1587  apple ipod family expands market apple has exp...           tech            1
+1489        538  santy worm makes unwelcome visit thousands of ...           tech            1
+2022-12-19 08:23:33-INFO-Dataset shape: (1490, 4)
+2022-12-19 08:23:33-INFO-****************************************************************************************************
+2022-12-19 08:23:33-INFO-DATA CLEANING
+2022-12-19 08:23:33-INFO-Apply preprocessing function to clean dataset
+2022-12-19 08:23:33-INFO-Saved cleaned dataset
+2022-12-19 08:23:33-INFO-****************************************************************************************************
+2022-12-19 08:23:33-INFO-DATA SPLITTING
+2022-12-19 08:23:33-INFO-Load cleaned.csv dataset
+2022-12-19 08:23:33-INFO-Get Independent features
+2022-12-19 08:23:33-INFO-Get Dependent features
+2022-12-19 08:23:33-INFO-Split the "Dependent" and "Independent" features as train and test sets
+2022-12-19 08:23:33-INFO-The length of train set features is : 1192
+2022-12-19 08:23:33-INFO-The length of test set features is : 298
+2022-12-19 08:23:33-INFO-The length of train set labels is : 1192
+2022-12-19 08:23:33-INFO-The length of test set labels is : 298
+2022-12-19 08:23:33-INFO-****************************************************************************************************
+2022-12-19 08:23:33-INFO-CATEGORICAL ENCODING
+2022-12-19 08:23:33-INFO-One Hot Encoder for labels
+2022-12-19 08:23:33-INFO-Print the first 10 samples of the encoded labels
+2022-12-19 08:23:33-INFO-y_train_one_hot: 
+[[0. 0. 0. 1. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 0. 1. 0. 0.]
+ [0. 0. 0. 1. 0.]
+ [0. 0. 1. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]]
+2022-12-19 08:23:33-INFO-y_test_one_hot: 
+[[0. 1. 0. 0. 0.]
+ [0. 0. 1. 0. 0.]
+ [0. 0. 1. 0. 0.]
+ [0. 0. 0. 0. 1.]
+ [0. 0. 0. 0. 1.]
+ [1. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1.]
+ [0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1.]]
+2022-12-19 08:23:33-INFO-y_train_label:[3 0 2 3 2 0 0 1 0 1]
+2022-12-19 08:23:33-INFO-y_test_label:[1 2 2 4 4 0 4 1 0 4]
+2022-12-19 08:23:33-INFO-Class Names:['business' 'entertainment' 'politics' 'sport' 'tech']
+2022-12-19 08:23:33-INFO-****************************************************************************************************
+2022-12-19 08:23:33-INFO-TOKENIZER AND PADDING
+2022-12-19 08:23:33-INFO-Get X_train and X_test sentences mapped to tokenizer and padding
+2022-12-19 08:23:34-INFO-Print first 5 samples from X_train and X_test 
+2022-12-19 08:23:34-INFO-X_train: [[ 714 4893  945 ...    0    0    0]
+ [ 511 2175    6 ...    0    0    0]
+ [ 771  221  817 ...    0    0    0]
+ [4895 3484 5844 ...    0    0    0]
+ [2991  988   85 ...    0    0    0]]
+2022-12-19 08:23:34-INFO-X_test: [[   7 2645   58 ...    0    0    0]
+ [ 266  138   58 ...    0    0    0]
+ [1634  661  138 ...    0    0    0]
+ [ 294  947    2 ...    0    0    0]
+ [1358  561 4100 ...    0    0    0]]
+2022-12-19 08:23:34-INFO-X_train and X_test shape
+2022-12-19 08:23:34-INFO-X_train shape: (1192, 593)
+2022-12-19 08:23:34-INFO-X_test shape: (298, 593)
